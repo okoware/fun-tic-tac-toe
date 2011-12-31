@@ -1,0 +1,8 @@
+Fun(ctional) Tic-Tac-Toe is an addictive variation of Tic-Tac-Toe with a timed countdown twist. The engine is written in F# while the front end is implemented in C#.
+
+Browse the code to see some of the elegance of F#.
+
+> let rec ``fun`` (a:'tic) (b:'tac) : 'toe = ``fun`` a b
+fun : 'tic -> 'tac -> 'toe
+
+Give the game a try and let the infinite fun begin.
