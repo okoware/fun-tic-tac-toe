@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>TicTacToe.Engine</name></assembly>
+<members>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:TicTacToe.Engine.GameState">
+<summary>
+ The game states
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:TicTacToe.Engine.Move">
+ <summary>A tic-tac-toe move</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:TicTacToe.Engine.MoveInfo">
+ <summary>A scored move</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:TicTacToe.Engine.Piece">
+ <summary>The available pieces, <c>X</c> and <c>O</c>, along with the empty piece indicator, <c>E</c></summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:TicTacToe.Engine.PlayerType">
+<summary>
+ Types of players.  Human or Computer
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="P:TicTacToe.Engine.PlayerViewModel.WinCount(System.Int32)">
+ <summary>Get the win count</summary>
+</member>
+<member name="P:TicTacToe.Engine.PlayerViewModel.RemainingMoveTime(System.TimeSpan)">
+ <summary>Get the win count</summary>
+</member>
+<member name="P:TicTacToe.Engine.PlayerViewModel.Ply(System.UInt16)">
+ <summary>Get the ply</summary>
+</member>
+<member name="P:TicTacToe.Engine.PlayerViewModel.PlayerType(TicTacToe.Engine.PlayerType)">
+ <summary>Get the ply</summary>
+</member>
+<member name="">
+
+</member>
+<member name="P:TicTacToe.Engine.PlayerViewModel.WinCount">
+ <summary>Get the win count</summary>
+</member>
+<member name="P:TicTacToe.Engine.PlayerViewModel.RemainingMoveTime">
+ <summary>Get the win count</summary>
+</member>
+<member name="">
+
+</member>
+<member name="P:TicTacToe.Engine.PlayerViewModel.Ply">
+ <summary>Get the ply</summary>
+</member>
+<member name="P:TicTacToe.Engine.PlayerViewModel.PlayerType">
+ <summary>Get the ply</summary>
+</member>
+<member name="P:TicTacToe.Engine.PlayerViewModel.OwnedPiece">
+ <summary>Get the piece owned by this player</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:TicTacToe.Engine.PlayerViewModel">
+ <summary>
+ The player view model
+ </summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:TicTacToe.Engine.TicTacToeViewModel.timer_callback(System.Object)">
+ <summary>Callback for the move timer</summary>
+</member>
+<member name="P:TicTacToe.Engine.TicTacToeViewModel.TimePerMove(System.TimeSpan)">
+ <summary>Get the current board state</summary>
+</member>
+<member name="P:TicTacToe.Engine.TicTacToeViewModel.StatusMessage(System.String)">
+ <summary>Get the game status message</summary>
+</member>
+<member name="P:TicTacToe.Engine.TicTacToeViewModel.SelectedMovePosition(System.Int32)">
+ <summary>Set the selected move.  This is usually for human input.</summary>
+</member>
+<member name="P:TicTacToe.Engine.TicTacToeViewModel.GameState(TicTacToe.Engine.GameState)">
+ <summary>Get the game state</summary>
+</member>
+<member name="P:TicTacToe.Engine.TicTacToeViewModel.CurrentPlayer(TicTacToe.Engine.PlayerViewModel)">
+ <summary>Get the player with the current turn</summary>
+</member>
+<member name="P:TicTacToe.Engine.TicTacToeViewModel.Board(Microsoft.FSharp.Collections.FSharpList{TicTacToe.Engine.Piece})">
+ <summary>Get the current board state</summary>
+</member>
+<member name="">
+
+</member>
+<member name="P:TicTacToe.Engine.TicTacToeViewModel.WinningRows">
+ <summary>Get the winning rows</summary>
+</member>
+<member name="P:TicTacToe.Engine.TicTacToeViewModel.TimePerMove">
+ <summary>Get the current board state</summary>
+</member>
+<member name="P:TicTacToe.Engine.TicTacToeViewModel.StatusMessage">
+ <summary>Get the game status message</summary>
+</member>
+<member name="P:TicTacToe.Engine.TicTacToeViewModel.StartRoundCommand">
+ <summary>Command for starting a new round</summary>
+</member>
+<member name="P:TicTacToe.Engine.TicTacToeViewModel.StartGameCommand">
+ <summary>Command for starting game</summary>
+</member>
+<member name="P:TicTacToe.Engine.TicTacToeViewModel.ResetGameCommand">
+ <summary>Command for reseting game</summary>
+</member>
+<member name="">
+
+</member>
+<member name="P:TicTacToe.Engine.TicTacToeViewModel.PlayerXViewModel">
+ <summary>Get the view model for player X</summary>
+</member>
+<member name="P:TicTacToe.Engine.TicTacToeViewModel.PlayerOViewModel">
+ <summary>Get the view model for player O</summary>
+</member>
+<member name="P:TicTacToe.Engine.TicTacToeViewModel.HumanMoveCommand">
+ <summary>Command for invoking human moves</summary>
+</member>
+<member name="P:TicTacToe.Engine.TicTacToeViewModel.GameState">
+ <summary>Get the game state</summary>
+</member>
+<member name="P:TicTacToe.Engine.TicTacToeViewModel.CurrentPlayer">
+ <summary>Get the player with the current turn</summary>
+</member>
+<member name="P:TicTacToe.Engine.TicTacToeViewModel.Board">
+ <summary>Get the current board state</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:TicTacToe.Engine.TicTacToeViewModel.UpdateGameEndStats">
+ <summary>Update game end statistics</summary>
+</member>
+<member name="M:TicTacToe.Engine.TicTacToeViewModel.SwapTurn">
+ <summary>Alternate player turn</summary>
+</member>
+<member name="M:TicTacToe.Engine.TicTacToeViewModel.StopTimer">
+ <summary>Stop the timer</summary>
+</member>
+<member name="M:TicTacToe.Engine.TicTacToeViewModel.StartRound">
+ <summary>Reset the game state and board</summary>
+</member>
+<member name="M:TicTacToe.Engine.TicTacToeViewModel.StartGame">
+ <summary>Start the game</summary>
+</member>
+<member name="M:TicTacToe.Engine.TicTacToeViewModel.ResetGame">
+ <summary>Reset the game state and board</summary>
+</member>
+<member name="M:TicTacToe.Engine.TicTacToeViewModel.NotifyPlayerTurn">
+ <summary>Notify player of turn</summary>
+</member>
+<member name="M:TicTacToe.Engine.TicTacToeViewModel.MakePlayerMove">
+ <summary>
+ Determines if the player with the current turn is a human or computer.  It delegates human players to <see cref="ApplySelectedMove" />
+ and computer players to <see cref="GenerateComputerMove" />.
+ </summary>
+</member>
+<member name="M:TicTacToe.Engine.TicTacToeViewModel.GetTailoredMessage``1(``0,``0,TicTacToe.Engine.PlayerViewModel)">
+ <summary>Get tailured message based on if the current player is the only human player/summary>
+</member>
+<member name="M:TicTacToe.Engine.TicTacToeViewModel.GenerateComputerMove">
+ <summary>Generate a computer move and apply it to the board</summary>
+</member>
+<member name="M:TicTacToe.Engine.TicTacToeViewModel.CancelCurrentComputerMove">
+ <summary>Cancel the current computer move</summary>
+</member>
+<member name="M:TicTacToe.Engine.TicTacToeViewModel.AutoStart">
+ <summary>Auto start the game if it hasn't been started or the game is over</summary>
+</member>
+<member name="M:TicTacToe.Engine.TicTacToeViewModel.ApplySelectedMove">
+ <summary>Apply the selected move if available.  The <see cref="SelectedMovePosition">selected move</see> comes from the owner of this view model.</summary>
+</member>
+<member name="M:TicTacToe.Engine.TicTacToeViewModel.ApplyMove(TicTacToe.Engine.Move)">
+ <summary>Apply the given move to the board</summary>
+</member>
+<member name="">
+
+</member>
+<member name="T:TicTacToe.Engine.TicTacToeViewModel">
+ <summary>
+ The tic-tac-toe view model
+ </summary>
+</member>
+<member name="M:TicTacToe.Engine.CommandUtility.CreateCommand(Microsoft.FSharp.Core.FSharpFunc`2{System.Object,System.Boolean},Microsoft.FSharp.Core.FSharpFunc`2{System.Object,Microsoft.FSharp.Core.Unit})">
+ <summary>Create a <see cref="ICommand">command</see> with the given action</summary>
+</member>
+<member name="T:TicTacToe.Engine.CommandUtility">
+
+</member>
+<member name="P:TicTacToe.Engine.Model.MaxBoardIndex">
+ <summary>The maximum index position on a tic-tac-toe board</summary>
+</member>
+<member name="P:TicTacToe.Engine.Model.MinBoardIndex">
+ <summary>The minimum index position on a tic-tac-toe board</summary>
+</member>
+<member name="P:TicTacToe.Engine.Model.E">
+ <summary>The empty piece.  Shorthand for <see cref="Piece.E" /></summary>
+</member>
+<member name="P:TicTacToe.Engine.Model.O">
+ <summary>The O piece.  Shorthand for <see cref="Piece.O" /></summary>
+</member>
+<member name="P:TicTacToe.Engine.Model.X">
+ <summary>The X piece.  Shorthand for <see cref="Piece.X" /></summary>
+</member>
+<member name="T:TicTacToe.Engine.Model">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:TicTacToe.Engine.Searcher.SearchOptions">
+ <summary>Options for searcher</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:TicTacToe.Engine.Searcher.SearchHandler`3">
+ <summary>Search handlers</summary>
+</member>
+<member name="M:TicTacToe.Engine.Searcher.GenerateMove``3(TicTacToe.Engine.Searcher.SearchHandler{``0,``1,``2},TicTacToe.Engine.Searcher.SearchOptions,``1,``0)">
+ <summary>Generate a move for the given player.  <see cref="None" /> if no move could be found.</summary>
+ <returns>A tuple consisting of the move and corresponding score.  <c>('move * 'score)</c></returns>
+</member>
+<member name="">
+
+</member>
+<member name="T:TicTacToe.Engine.Searcher">
+
+</member>
+<member name="M:TicTacToe.Engine.TicTacToeEngine.Simulate(System.UInt16,TicTacToe.Engine.Piece,Microsoft.FSharp.Collections.FSharpList{TicTacToe.Engine.Piece})">
+ <summary>Run the game with using the engine to generate moves for both players.</summary>
+</member>
+<member name="M:TicTacToe.Engine.TicTacToeEngine.GenerateMove(System.UInt16,TicTacToe.Engine.Piece,Microsoft.FSharp.Collections.FSharpList{TicTacToe.Engine.Piece})">
+ <summary>Generate a move for the given player.  <see cref="None" /> if no move could be found.</summary>
+ <remarks>
+ Board positions:
+ <code>
+   [0;1;2;
+    3;4;5;
+    6;7;8]
+ </code>
+ </remarks>
+</member>
+<member name="M:TicTacToe.Engine.TicTacToeEngine.GetMoves(TicTacToe.Engine.Piece,Microsoft.FSharp.Collections.FSharpList{TicTacToe.Engine.Piece})">
+ <summary>Get the available moves for the given board</summary>
+</member>
+<member name="M:TicTacToe.Engine.TicTacToeEngine.Evaluate(TicTacToe.Engine.Piece,Microsoft.FSharp.Collections.FSharpList{TicTacToe.Engine.Piece})">
+ <summary>Evaluate the given board from the given <see cref="Piece">player's</see> perspective</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:TicTacToe.Engine.TicTacToeEngine.IsGameOver(Microsoft.FSharp.Collections.FSharpList{TicTacToe.Engine.Piece})">
+ <summary>Returns <c>true</c> if the game is over for the specified board; <c>false</c> if otherwise</summary>
+</member>
+<member name="M:TicTacToe.Engine.TicTacToeEngine.GetWinningRows(Microsoft.FSharp.Collections.FSharpList{TicTacToe.Engine.Piece})">
+ <summary>Get the winning rows</summary>
+</member>
+<member name="M:TicTacToe.Engine.TicTacToeEngine.GetWinner(Microsoft.FSharp.Collections.FSharpList{TicTacToe.Engine.Piece})">
+ <summary>Get the winner if any for the given board.  <see cref="None" /> is returned if there is no winner</summary>
+</member>
+<member name="M:TicTacToe.Engine.TicTacToeEngine.AreSamePiecesAndNotEmpty(TicTacToe.Engine.Piece,TicTacToe.Engine.Piece,TicTacToe.Engine.Piece)">
+ <summary>Check if all the given pieces are the same and not empty</summary>
+</member>
+<member name="M:TicTacToe.Engine.TicTacToeEngine.GetRows(Microsoft.FSharp.Collections.FSharpList{TicTacToe.Engine.Piece})">
+ <summary>
+ Get all the horizontal, vertical, and diagonal rows on the board. The data is
+ returned as pairs of positions with corresponding pairs of pieces at the positions.
+</summary>
+</member>
+<member name="M:TicTacToe.Engine.TicTacToeEngine.ApplyMove(TicTacToe.Engine.Move,Microsoft.FSharp.Collections.FSharpList{TicTacToe.Engine.Piece})">
+ <summary>Apply a move to the board</summary>
+ <param name="piece">The piece to move</param>
+ <param name="position">The position to move the piece to</param>
+ <param name="board">The board to apply the move to.  A copy of the board is returned</param>
+</member>
+<member name="M:TicTacToe.Engine.TicTacToeEngine.ToString(Microsoft.FSharp.Collections.FSharpList{TicTacToe.Engine.Piece})">
+ <summary>Get the <see cref="System.String" /> representation of the board</summary>
+ <param name="board">The board to display the <see cref="System.String" /> representation for</param>
+</member>
+<member name="M:TicTacToe.Engine.TicTacToeEngine.Opponent(TicTacToe.Engine.Piece)">
+<summary>
+ Get the opponent piece for the given piece
+</summary>
+</member>
+<member name="P:TicTacToe.Engine.TicTacToeEngine.EmptyBoard">
+ <summary>An empty board</summary>
+</member>
+<member name="T:TicTacToe.Engine.TicTacToeEngine">
+ <summary>A tic-tac-toe game engine</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:TicTacToe.Engine.ViewModelProperties.PlayerViewModel">
+ <summary>Property names for <see cref="PlayerViewModel" /></summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:TicTacToe.Engine.ViewModelProperties.TicTacToeViewModel">
+ <summary>Property names for <see cref="TicTacToeViewModel" /></summary>
+</member>
+<member name="T:TicTacToe.Engine.ViewModelProperties">
+
+</member>
+</members>
+</doc>
