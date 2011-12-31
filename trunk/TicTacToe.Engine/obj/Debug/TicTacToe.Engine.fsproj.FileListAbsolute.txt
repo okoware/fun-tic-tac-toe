@@ -1,0 +1,12 @@
+C:\Tony\MyOpenSource\git\fun-tic-tac-toe\trunk\TicTacToe.Engine\TicTacToe.Engine\obj\Debug\ResolveAssemblyReference.cache
+C:\Tony\MyOpenSource\git\fun-tic-tac-toe\trunk\TicTacToe.Engine\TicTacToe.Engine\bin\Debug\TicTacToe.Engine.XML
+C:\Tony\MyOpenSource\git\fun-tic-tac-toe\trunk\TicTacToe.Engine\TicTacToe.Engine\bin\Debug\TicTacToe.Engine.dll
+C:\Tony\MyOpenSource\git\fun-tic-tac-toe\trunk\TicTacToe.Engine\TicTacToe.Engine\bin\Debug\TicTacToe.Engine.pdb
+C:\Tony\MyOpenSource\git\fun-tic-tac-toe\trunk\TicTacToe.Engine\TicTacToe.Engine\obj\Debug\TicTacToe.Engine.dll
+C:\Tony\MyOpenSource\git\fun-tic-tac-toe\trunk\TicTacToe.Engine\TicTacToe.Engine\obj\Debug\TicTacToe.Engine.pdb
+C:\Tony\MyOpenSource\git\fun-tic-tac-toe\trunk\TicTacToe.Engine\bin\Debug\TicTacToe.Engine.XML
+C:\Tony\MyOpenSource\git\fun-tic-tac-toe\trunk\TicTacToe.Engine\bin\Debug\TicTacToe.Engine.dll
+C:\Tony\MyOpenSource\git\fun-tic-tac-toe\trunk\TicTacToe.Engine\bin\Debug\TicTacToe.Engine.pdb
+C:\Tony\MyOpenSource\git\fun-tic-tac-toe\trunk\TicTacToe.Engine\obj\Debug\ResolveAssemblyReference.cache
+C:\Tony\MyOpenSource\git\fun-tic-tac-toe\trunk\TicTacToe.Engine\obj\Debug\TicTacToe.Engine.dll
+C:\Tony\MyOpenSource\git\fun-tic-tac-toe\trunk\TicTacToe.Engine\obj\Debug\TicTacToe.Engine.pdb
