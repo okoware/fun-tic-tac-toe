@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TicTacToe.Engine", "TicTacToe.Engine\TicTacToe.Engine.fsproj", "{F6A51B7F-E802-4323-8DDC-AE11EFDBA12F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe.UI.WindowsForm", "TicTacToe.UI.WindowsForm\TicTacToe.UI.WindowsForm.csproj", "{B53429ED-8011-483D-9679-217F21C5F082}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6A51B7F-E802-4323-8DDC-AE11EFDBA12F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A51B7F-E802-4323-8DDC-AE11EFDBA12F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A51B7F-E802-4323-8DDC-AE11EFDBA12F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F6A51B7F-E802-4323-8DDC-AE11EFDBA12F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F6A51B7F-E802-4323-8DDC-AE11EFDBA12F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F6A51B7F-E802-4323-8DDC-AE11EFDBA12F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A51B7F-E802-4323-8DDC-AE11EFDBA12F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6A51B7F-E802-4323-8DDC-AE11EFDBA12F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F6A51B7F-E802-4323-8DDC-AE11EFDBA12F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F6A51B7F-E802-4323-8DDC-AE11EFDBA12F}.Release|x86.ActiveCfg = Release|Any CPU
+		{B53429ED-8011-483D-9679-217F21C5F082}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{B53429ED-8011-483D-9679-217F21C5F082}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{B53429ED-8011-483D-9679-217F21C5F082}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{B53429ED-8011-483D-9679-217F21C5F082}.Debug|x86.ActiveCfg = Debug|x86
+		{B53429ED-8011-483D-9679-217F21C5F082}.Debug|x86.Build.0 = Debug|x86
+		{B53429ED-8011-483D-9679-217F21C5F082}.Release|Any CPU.ActiveCfg = Release|x86
+		{B53429ED-8011-483D-9679-217F21C5F082}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{B53429ED-8011-483D-9679-217F21C5F082}.Release|Mixed Platforms.Build.0 = Release|x86
+		{B53429ED-8011-483D-9679-217F21C5F082}.Release|x86.ActiveCfg = Release|x86
+		{B53429ED-8011-483D-9679-217F21C5F082}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
