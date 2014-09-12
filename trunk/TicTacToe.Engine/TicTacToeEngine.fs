@@ -71,7 +71,7 @@ module TicTacToeEngine =
 
     /// <summary>Returns <c>true</c> if the game is over for the specified board; <c>false</c> if otherwise</summary>
     let IsGameOver board = (board |> Seq.exists (fun p -> p = E) |> not) || ((GetWinner board).IsSome)
-    let (|Blah1|Blah2|Blah3|NoneInRow|) a = if a = 1 then Blah1(1) elif a = 2 then Blah2(2) elif a = 3 then Blah3(3) else NoneInRow(4)
+    
     /// <summary>Evaluate the given board from the given <see cref="Piece">player's</see> perspective</summary>
     let Evaluate player board =
         let inline ScoreForPlayerPerspective playerWithPiecesInRow score = if player = playerWithPiecesInRow then score else -score
